@@ -1,22 +1,27 @@
 import { Link } from 'react-router-dom'
-
+import React from 'react'
 
 const Nav = () => {
   return (
-    <div>
-      <Link to="/ComponentA">
-        <h2> Component A </h2>
-      </Link>
+    
+    <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
+      <ul style={{ listStyle: 'none', display: 'flex' }}>
+        <li style={{ marginRight: '10px' }}>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/Projects">Projects</Link>
+        </li>
+        <li>
+          <Link to="/Resume">Resume</Link>
+        </li>
 
-      <Link to="/ComponentB">
-        <h2> Component B </h2>
-      </Link>
 
-      <Link to="/">
-        <h2> Home </h2>
-      </Link>
-    </div>
+      </ul>
+    </nav>
   )
 }
-
 export default Nav
