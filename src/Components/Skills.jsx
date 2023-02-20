@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div className = "skills-div">
       <img asdasdad />
-    </div>
+    </div>asdasdd
   )
 }
 export default Skills
