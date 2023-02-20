@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Landing from './Components/Landing'
+import Home from './Components/Home'
 import Nav from './Components/Nav'
 import Aboutme from './Components/Aboutme'
 import Projects from './Components/Projects'
@@ -16,9 +16,30 @@ function App() {
 
   
   return ( 
-    <Router>
-      <div>
-         <Nav />
+    
+      <div className = "app">
+
+          <Nav/>
+          <Home />
+
+
+
+
+
+          <Aboutme />
+          <Skills />
+          <Projects />
+        
+      
+
+
+
+
+
+
+
+
+         {/* <Nav />
          <Switch>
           <Route exact path= "/">
             <Landing />
@@ -31,16 +52,9 @@ function App() {
             </Route>
           <Route exact path = "Resume">
             <Resume />
-          </Route>
+          </Route> */}
 
 
-
-
-
-
-          <Landing  />
-          <Aboutme />
-          <Skills />
           
           
           
@@ -55,9 +69,9 @@ function App() {
           <Projects />
           <Resume /> */}
 
-        </Switch> 
+       
       </div>
-    </Router>
+    
   
       
 

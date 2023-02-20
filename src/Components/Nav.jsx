@@ -1,25 +1,28 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Aboutme from './Aboutme'
+import Landing from './Home'
+import Projects from './Projects'
+import Resume from './Resume'
 
 const Nav = () => {
   return (
     
-    <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
-      <ul style={{ listStyle: 'none', display: 'flex' }}>
-        <li style={{ marginRight: '10px' }}>
-          <Link to="/">Home</Link>
+    <nav className = "navbar" style={{ display: 'flex', justifyContent: 'flex-end' }}>
+      <ul className = "ulbar" style={{ listStyle: 'none', display: 'flex' }}>
+        <li className = "homenav">
+          <Link to="/" className="about-link">Home</Link>
         </li>
-        <li>
-          <Link to="/about">About</Link>
+        <li className = "aboutmelist">
+          <Link to="/AboutMe" className="about-link">About Me</Link>
         </li>
-        <li>
-          <Link to="/Projects">Projects</Link>
+        <li className = "projectlist">
+          <Link to="/Projects" className="about-link">Projects</Link>
         </li>
-        <li>
-          <Link to="/Resume">Resume</Link>
+        <li className = "resumelist">
+          <Link to="/Resume" className="about-link">Resume</Link>
         </li>
-
-
       </ul>
     </nav>
   )

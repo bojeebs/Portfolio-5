@@ -1,5 +1,46 @@
 .app {
   background-color: #340068;
-  color: whitesmoke
+  color: whitesmoke;
+  padding-top: 15px;
+
 }
 
+.navbar {
+   
+}
+
+.ulbar {
+ 
+}
+
+.aboutmelist, .projectlist, .resumelist, .homenav {
+  margin-right: 40px;
+  margin-top: 20px;
+  
+}
+
+.about-link {
+ color: #FE8A66;
+}
+
+.Main {
+  padding: 85px;
+  font-size: 45px;
+  margin-bottom: 15px;
+  line-height: 50px;
+  
+}
+
+.h1 {
+  font-weight: 400;
+}
+
+.cool-text {
+color: #FE8A66;
+font-weight: 900;
+
+}
+
+.aboutme-div, .skills-div, .project-div {
+  margin-top: 300px;
+}
