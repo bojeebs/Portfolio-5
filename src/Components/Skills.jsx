@@ -1,12 +1,11 @@
 
 
 
-
 const Skills = () => {
   return (
     <div className = "skills-div">
-      <img asdasdad />
-    </div>
+      
+      </div>
   )
 }
 export default Skills
