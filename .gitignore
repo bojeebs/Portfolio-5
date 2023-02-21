@@ -1,2 +1,10 @@
 
 src/Portfolio/
+*.pack
+*.json
+*.pack
+node_modules/.cache/.eslintcache
+*.pack
+*.pack
+node_modules/.cache/default-development/3.pack
+node_modules/.cache/default-development/2.pack
