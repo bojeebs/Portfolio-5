@@ -12,73 +12,21 @@ import Skills from './Components/Skills'
 
 
 
+
 function App() {
 
   
   return ( 
-    
-      <div className = "app">
-
-          <Nav />
-          <Home />
-
-
-
-
-
-          <Aboutme />
-          <Skills />
-          <Projects />
-        
+    <div className="app">
+      <Nav />
+      <Home id="home" />
+      <Skills id="skills" />
+      <Projects id="projects" />
+      <Aboutme id="aboutme" />
       
-
-
-
-
-
-
-
-
-         {/* <Nav />
-         <Switch>
-          <Route exact path= "/">
-            <Landing />
-            </Route>
-          <Route exact path= "Projects">
-            <Projects />
-            </Route> 
-          <Route exact path = "About">
-            <Aboutme />
-            </Route>
-          <Route exact path = "Resume">
-            <Resume />
-          </Route> */}
-
-
-          
-          
-          
-          
-          
-          
-          
-          
-          {/* <Nav  />
-          <Aboutme />
-          
-          <Projects />
-          <Resume /> */}
-
-       
-      </div>
-    
-  
-      
-
-      
-      
-    
-  );
+    </div>
+);
 }
+
 
 export default App;

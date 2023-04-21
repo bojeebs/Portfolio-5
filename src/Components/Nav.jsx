@@ -6,25 +6,28 @@ import Landing from './Home'
 import Projects from './Projects'
 import Resume from './Resume'
 
-const Nav = () => {
+function Nav() {
   return (
-    
-    <nav className = "navbar" style={{ display: 'flex', justifyContent: 'flex-end' }}>
-      <ul className = "ulbar" style={{ listStyle: 'none', display: 'flex' }}>
-        <li className = "homenav">
-          <Link to="/" className="about-link">Home</Link>
+    <nav className="navbar" style={{ display: 'flex', justifyContent: 'flex-end' }}>
+      <ul className="ulbar" style={{ listStyle: 'none', display: 'flex' }}>
+        <li className="homenav">
+          <a href="#home" className="about-link">Home</a>
         </li>
-        <li className = "aboutmelist">
-          <Link to="/AboutMe" className="about-link">About Me</Link>
+        <li className="skilllist">
+          <a href="#skills" className="about-link">Skills</a>
         </li>
-        <li className = "projectlist">
-          <Link to="/Projects" className="about-link">Projects</Link>
+        <li className="projectlist">
+          <a href="#projects" className="about-link">Projects</a>
         </li>
-        <li className = "resumelist">
-          <Link to="/Resume" className="about-link">Resume</Link>
+        <li className="aboutmelist">
+          <a href="#aboutme" className="about-link">About Me</a>
+        </li>
+        <li className="resumelist">
+          <a href="#resume" className="about-link">Resume</a>
         </li>
       </ul>
     </nav>
-  )
+  );
 }
-export default Nav
+
+export default Nav;
