@@ -22,7 +22,7 @@ function App() {
       <Home id="home" />
       <Skills id="skills" />
       <Projects id="projects" />
-      <Aboutme id="aboutme" />
+      {/* <Aboutme id="aboutme" /> */}
       
     </div>
 );
