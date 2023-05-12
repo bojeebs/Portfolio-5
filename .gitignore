@@ -25,3 +25,5 @@ node_modules/.cache/default-development/15.pack
 node_modules/.cache/default-development/16.pack
 node_modules
 node_modules/.cache/default-development
+*.pack
+node_modules/.cache/default-development/4.pack
