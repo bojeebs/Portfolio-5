@@ -22,17 +22,19 @@ const Projects = () => {
       </div>
       <div className="container-wrapper">
         <div className="container">
-        <a href="https://catfinder-43i8.onrender.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://quizz-app-h468.onrender.com" target="_blank" rel="noopener noreferrer">
     <img src={placeholderImage} alt="Placeholder" className="proimage" />
     </a>
           <div className="content">
-            <h1 className="projectone">Cats</h1>
-            <h3 className="projectone">Cats was my first react project and pulls in a 3rd party api with cat breeds, images,<br/> and other cat information.
-            Each cat is clickable and provides a small amount of detail <br/> on each cat and ranks their attributes. You can also cycle through each cat using <br/> 
-            the next and previous buttons instead of going back to the home page. </h3>
+            <h1 className="projectone">Quizzical</h1>
+            <h3 className="projectone">Quizzical is an application I made to test me knowledge of React and managing state.<br/>
+            The application uses a simple API to fetch the questions. I store the users selected answers <br/> 
+            and the correct answer using state. Then apply conditonal logic based on those selections and render <br/>it on the page.  </h3>
+            <h1 className='tech-title-one'>Technologies Used:</h1>
+            <h3 className='tech-used-one'>React | Node.js | Javascript | HTML5 | CSS | Axios | Render | HE Decode | Open Trivia DB API</h3>
             <div className="buttonsone">
-            <a href="https://github.com/bojeebs/Cats" target="_blank" rel="noopener noreferrer" className="orange-button no-underline">Github</a>
-            <a href="https://catfinder-43i8.onrender.com" target="_blank" rel="noopener noreferrer" className="orange-button">View Project</a>
+            <a href="https://github.com/bojeebs/quizzical" target="_blank" rel="noopener noreferrer" className="orange-button no-underline">Github</a>
+            <a href="https://quizz-app-h468.onrender.com" target="_blank" rel="noopener noreferrer" className="orange-button">View Project</a>
             </div>
           </div>
         </div>

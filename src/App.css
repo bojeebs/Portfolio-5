@@ -82,8 +82,8 @@ margin-top: 350px;
 }
 
 .proimage{
-  height: 25rem;
-  width: 35rem;
+  height: 30rem;
+  width: 30rem;
   border-radius: 8px; 
   transition: transform 0.3s ease; 
 }
@@ -125,7 +125,9 @@ margin-top: 350px;
 }
 
 
-
+.tech-title-one, .tech-used-one {
+  margin-left: 2rem;
+}
 
 
 
