@@ -27,7 +27,7 @@ const Projects = () => {
     </a>
           <div className="content">
             <h1 className="projectone">Quizzical</h1>
-            <h3 className="projectone">Quizzical is an application I made to test me knowledge of React and managing state.<br/>
+            <h3 className="projectone">Quizzical is an application I made to test my knowledge of React and managing state.<br/>
             The application uses a simple API to fetch the questions. I store the users selected answers <br/> 
             and the correct answer using state. Then apply conditonal logic based on those selections and render <br/>it on the page.  </h3>
             <h1 className='tech-title-one'>Technologies Used:</h1>
