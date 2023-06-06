@@ -27,9 +27,9 @@ const Projects = () => {
     </a>
           <div className="content">
             <h1 className="projectone">Quizzical</h1>
-            <h3 className="projectone">Quizzical is an application I made to test my knowledge of React and managing state.<br/>
-            The application uses a simple API to fetch the questions. I store the users selected answers <br/> 
-            and the correct answer using state. Then apply conditonal logic based on those selections and render <br/>it on the page.  </h3>
+            <h3 className="projectone">Quizzical is an application I made to test my knowledge of React <br/>and managing state.
+            The application uses a simple API to fetch <br/>the questions. I store the users selected answers  
+            and the correct <br/>answer using state. Then apply conditonal logic based on those <br/>selections and render it on the page. </h3>
             <h1 className='tech-title-one'>Technologies Used:</h1>
             <h3 className='tech-used-one'>React | Node.js | Javascript | HTML5 | CSS | Axios | Render | HE Decode | Open Trivia DB API</h3>
             <div className="buttonsone">
@@ -42,16 +42,20 @@ const Projects = () => {
 
       <div className="container" style={{ flexDirection: "row-reverse" }}>
         <div>
-        <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://simplesteam-react.onrender.com" target="_blank" rel="noopener noreferrer">
           <img src={placeholderImage2} alt="Placeholder" className="proimage" />
         </a>
         </div>
         <div className="content">
           <h1 className="projecttwo">Steam Clone</h1>
-          <h3 className="projecttwo">Body</h3>
+          <h3 className="projecttwo">This is a clone application I help designed as a team project during<br/> my bootcamp.</h3>
           <div className="buttonstwo">
+          <a href="https://github.com/bojeebs/SimpleSteam-1" target="_blank" rel="noopener noreferrer">
             <button className="orange-button">Github</button>
+          </a>
+          <a href="https://simplesteam-react.onrender.com" target="_blank" rel="noopener noreferrer">
             <button className="orange-button">View Project</button>
+          </a>
           </div>
         </div>
       </div>
