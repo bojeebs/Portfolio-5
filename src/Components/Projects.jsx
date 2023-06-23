@@ -48,7 +48,13 @@ const Projects = () => {
         </div>
         <div className="content">
           <h1 className="projecttwo">Steam Clone</h1>
-          <h3 className="projecttwo">This is a clone application I help designed as a team project during<br/> my bootcamp.</h3>
+          <h3 className="projecttwo">This is a clone application I helped design as a team project during<br/> my bootcamp. The project has full CRUD
+          and renders data condtionally <br/> depending on whether or not the user is logged in. User can add games <br/> to their wishlists and remove them.
+          We utilized 3rd party api's to populate <br/> our database intially then mapped through those results to display them. </h3>
+          <h1 className='tech-title-two'>Technologies Used:</h1>
+          <h3 className='tech-used-two'>React | Node.js | Javascript | HTML5 | CSS | Axios | Render | Auth |<br/> Steam API | Sequelize | Postgresql 
+          | SQL | </h3>
+
           <div className="buttonstwo">
           <a href="https://github.com/bojeebs/SimpleSteam-1" target="_blank" rel="noopener noreferrer">
             <button className="orange-button">Github</button>
@@ -66,7 +72,7 @@ const Projects = () => {
     <img src={placeholderImage3} alt="Placeholder" className="proimage" />
     </a>
           <div className="content">
-            <h1 className="projectone">Quizzical</h1>
+            <h1 className="projectone">Tickit</h1>
             <h3 className="projectone">Quizzical is an application I made to test my knowledge of React <br/>and managing state.
             The application uses a simple API to fetch <br/>the questions. I store the users selected answers  
             and the correct <br/>answer using state. Then apply conditonal logic based on those <br/>selections and render it on the page. </h3>
