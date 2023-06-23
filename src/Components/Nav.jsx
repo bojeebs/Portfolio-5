@@ -22,9 +22,9 @@ function Nav() {
         <li className="aboutmelist">
           <a href="#aboutme" className="about-link">About Me</a>
         </li>
-        <li className="resumelist">
+        {/* <li className="resumelist">
           <a href="#resume" className="about-link">Resume</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
