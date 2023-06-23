@@ -1,6 +1,6 @@
 import placeholderImage from '../images/catsproject.png'
 import placeholderImage2 from '../images/steamclone.png'
-
+import placeholderImage3 from '../images/tickit.png'
 
 
 
@@ -58,19 +58,28 @@ const Projects = () => {
           </a>
           </div>
         </div>
+        
       </div>
-
-      {/* <div className="container">
-        <img src={placeholderImage} alt="Placeholder" className="proimage" />
-        <div className="content">
-          <h1>Title</h1>
-          <h3>Body</h3>
-          <div className="buttonsthree">
-            <button className="orange-button">Github</button>
-            <button className="orange-button">View Project</button>
+      <div className="container-wrapper">
+        <div className="container">
+        <a href="https://quizz-app-h468.onrender.com" target="_blank" rel="noopener noreferrer">
+    <img src={placeholderImage3} alt="Placeholder" className="proimage" />
+    </a>
+          <div className="content">
+            <h1 className="projectone">Quizzical</h1>
+            <h3 className="projectone">Quizzical is an application I made to test my knowledge of React <br/>and managing state.
+            The application uses a simple API to fetch <br/>the questions. I store the users selected answers  
+            and the correct <br/>answer using state. Then apply conditonal logic based on those <br/>selections and render it on the page. </h3>
+            <h1 className='tech-title-one'>Technologies Used:</h1>
+            <h3 className='tech-used-one'>React | Node.js | Javascript | HTML5 | CSS | Axios | Render | HE Decode | Open Trivia DB API</h3>
+            <div className="buttonsone">
+            <a href="https://github.com/bojeebs/quizzical" target="_blank" rel="noopener noreferrer" className="orange-button no-underline">Github</a>
+            <a href="https://quizz-app-h468.onrender.com" target="_blank" rel="noopener noreferrer" className="orange-button">View Project</a>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
+      
     </div>
   );
   
